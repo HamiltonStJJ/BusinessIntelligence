@@ -9,7 +9,7 @@ def cargar_datos(ruta_csv):
         print(data.head())  
         return data
     except FileNotFoundError:
-        print(f"Error: No se encontró el archivo '{ruta_csv}'. Asegúrate de que esté en la misma carpeta.")
+        print(f"Error: No se encontró el archivo '{ruta_csv}'.")
         return None
 
 def mostrar_matriz_correlacion(data):
