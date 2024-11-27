@@ -41,7 +41,7 @@ def graficar_distribucion(data):
             plt.show()
 
 if __name__ == "__main__":
-    archivo_csv = 'holaAmigos.csv'
+    archivo_csv = 'dataPython.csv'
 
     dataset = cargar_datos(archivo_csv)
 
